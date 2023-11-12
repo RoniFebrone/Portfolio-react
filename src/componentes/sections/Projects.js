@@ -21,7 +21,7 @@ function Projects() {
                 tech ="React, HTML, CSS, JavaScript"
                 description ="Meu portfólio, que estão vendo agora!! Meu primeiro projeto em React, que gostei muito de fazer, tive alguns desafios que eu mesmo propus, que me fizeram aprender ainda mais sobre a linguagem, durante o processo."
                 repo ="https://github.com/RoniFebrone/Portfolio-react.git" 
-                site =""
+                site ="portifolio-ewfzik0rg-ronifebrone.vercel.app"
             />
             <Card
                 img={CCXP}
