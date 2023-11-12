@@ -1,12 +1,35 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: flex-end;
     padding: 1em;
-
+    align-items: center;
+    margin-right: 30px;
 }
 
-.navbar ul{
+
+    /* display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+
+    margin-right: 30px;
+ */
+
+.list1{
     display: flex;
+
+
+    list-style: none;
+    align-items: center;
+}
+.list2{
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-right: 15px;
+
+
     list-style: none;
     align-items: center;
 }
@@ -17,5 +40,7 @@
 }
 
 .navbar a{
-    color: white !important    
+    color: white !important ;
+    cursor: pointer;  
 }
+

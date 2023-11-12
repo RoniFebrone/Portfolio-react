@@ -8,21 +8,21 @@ import CCXP from '../../Image/imgProjects/CCXP.svg'
 import Byecar from '../../Image/imgProjects/Byecar.svg'
 import Deliveryeasy from '../../Image/imgProjects/Deliveryeasy.svg'
 
-// import React from '../../Image/imgProjects/React.svg'
+import React from '../../Image/imgProjects/React.svg'
 
 function Projects() {
     return (
-        <div className={styles.Projects}>
+        <div className={styles.Projects} id="Projects">
             <h1> Projetos </h1>
 
-            {/* <Card
+            <Card
                 img={React}
                 title ="PORTFÓLIO"
                 tech ="React, HTML, CSS, JavaScript"
                 description ="Meu portfólio, que estão vendo agora!! Meu primeiro projeto em React, que gostei muito de fazer, tive alguns desafios que eu mesmo propus, que me fizeram aprender ainda mais sobre a linguagem, durante o processo."
-                repo ="" 
+                repo ="https://github.com/RoniFebrone/Portfolio-react.git" 
                 site =""
-            /> */}
+            />
             <Card
                 img={CCXP}
                 title="LP Lançamento - CCXP"
@@ -50,7 +50,7 @@ function Projects() {
             <br/>
             <div>
                 {/* Adicione a classe 'enormeBotao' para estilizar este botão especificamente */}
-                <ButtonB text='Acesse meu repositório completo!!!' link={'https://github.com/RoniFebrone?tab=repositories'} customClass={styles.enormeBotao} />
+                <ButtonB text='Acesse meu repositório completo!!!' link={'https://github.com/RoniFebrone?tab=repositories'} customClass={styles.btnPrj} />
             </div>
 
 

@@ -4,6 +4,8 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+
+    align-items: center;
 }
 
 .footer ul{
@@ -21,9 +23,10 @@
 }
 
 .footer li{
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .footer p{
     margin: 25px;
+    font-size: 18px;
 }
