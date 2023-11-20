@@ -24,12 +24,12 @@ function Projects() {
                 site ="portifolio-ewfzik0rg-ronifebrone.vercel.app"
             />
             <Card
-                img={CCXP}
-                title="LP Lançamento - CCXP"
+                img={Byecar}
+                title="Lançamento produto - Byecar"
                 tech="HTML, CSS, JavaScript"
-                description="Projeto Front-End para que fiz como um desafio para treino de lógica de programação, uso do JavaScrip, e treino em geral de HTML e CSS"
-                repo="https://github.com/RoniFebrone/LP-Lancamento-CCXP.git"
-                site="https://lp-lancamento-ccxp.vercel.app"
+                description="Este foi um desafio Front-End que fiz, em que além do treino em lógica de programação, html, css e JS, também foi exelente, pois treinamos tambem o uso do figma, foram feitos benchmarks, entre outras demandas que passei para a conclusao do projeto."
+                repo="https://github.com/RoniFebrone/Figma-Lp-comp.git"
+                site="https://lp-byecar.netlify.app"
             />
             <Card
                 img={Deliveryeasy}
@@ -40,12 +40,12 @@ function Projects() {
                 site="https://www.figma.com/proto/zuxZprLMP5mM5oxy0b2Ty6/DeliveryEasy?type=design&node-id=142-9639&t=aRtjZ39ncrd9K8aU-1&scaling=min-zoom&page-id=142%3A4347&starting-point-node-id=142%3A12557&mode=design"
             />
             <Card
-                img={Byecar}
+                img={CCXP}
                 title="LP Lançamento - CCXP"
                 tech="HTML, CSS, JavaScript"
-                description="Este foi outro desafio Front-End que fiz, que para alem do treino de lógica de programação, html, css e JS, tamb[em foi exelente, pois treinamos tambem o uso do figma, foi feito benchmarks, entre outras demandas que passei para a conclusao."
-                repo="https://github.com/RoniFebrone/Figma-Lp-comp.git"
-                site="https://lp-byecar.netlify.app"
+                description="Projeto Front-End para que fiz como um desafio para treino de lógica de programação, uso do JavaScrip, e treino em geral de HTML e CSS"
+                repo="https://github.com/RoniFebrone/LP-Lancamento-CCXP.git"
+                site="https://lp-lancamento-ccxp.vercel.app"
             />
             <br/>
             <div>
